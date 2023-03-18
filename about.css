@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+.header{
+    height: 8vh;
+    background-color: rgba(23, 22, 24, 0.945);
+}
+.navbar{
+    height: 8vh;
+    /* background-color: rgba(0, 0, 0, 0.747); */
+    width: 75vw;
+    margin: auto;
+    
+}
+.navbar .logo,.navbar .navitem a{
+    color: white ;
+}
+
+.logo{
+    float: left;
+    margin: 8px 0px 0px 50px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.navicon{
+    float: right;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+.navbar::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.navicon .navitem{
+    display: inline;
+    
+}
+
+.navitem a{
+    margin: 0 10px;
+    font-size: 17px;
+}
+
+.navitem a:hover{
+    color: rgb(8, 163, 252);
+}
+.navitem a:active{
+    color: rgb(156, 245, 12);
+}
+.main{
+    background-color: antiquewhite;
+    position: relative;
+    height: 95vh;
+}
+.content{
+    height: 60vh;
+    width: 65vw;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 80px;
+    left: 240px;
+}
+.about{
+    border-bottom: 4px solid rgb(190, 27, 27);
+}
+.info{
+    margin: 5px 1px 0 0;
+}
+.list{
+    width: 100%;
+    /* background-color: blueviolet; */
+    height: 35%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.l1{
+    height: 100%;
+    width: 50%;
+/* background-color: aqua; */
+float: left;
+text-align: center;
+padding-top: 20px;
+
+}
+.l2{
+    height: 100%;
+    width: 50%;
+/* background-color: rgb(0, 4, 255); */
+float: left;
+text-align: center;
+padding-top: 20px;
+}
+
+
+.number{
+    width: 100%;
+    /* background-color: blueviolet; */
+    height: 24%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.contact{
+    width: 100%;
+ /* background-color: blueviolet; */
+    height: 18%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-image: linear-gradient(-90deg, rgb(251, 255, 4), rgb(212, 127, 31));
+}
+.item{
+    margin-bottom: 5px;
+}
+.tick{
+    margin-right: 2px;
+}
+
+.contact{
+    /* text-align: center; */
+    padding-top: 20px;
+
+}
+.us{
+    border: 1px solid rgb(68, 151, 60);
+    text-decoration: none;
+    padding: 1px;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(161, 98, 98);
+}
+.end{
+    margin-right: 400px;
+    margin-left: 5px;
+    font-size: 22px;
+    
+
+}
+.num1
+{
+    /* border: 1px solid black; */
+    right: 25%;
+    float: left;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    padding-top: 15px;
+}
+.num2
+{
+    /* border: 1px solid rgb(24, 47, 122); */
+    width: 25%;
+    float: left;
+    height: 100%;
+    text-align: center;
+    padding-top: 15px;
+}
+.num3
+{
+    /* border: 1px solid rgb(221, 49, 49); */
+    width: 25%;
+    float: left;
+    height: 100%;
+    text-align: center;
+    padding-top: 15px;
+}
+.num4
+{
+    /* border: 1px solid rgb(16, 155, 74); */
+    width: 25%;
+    float: left;
+    height: 100%;
+    text-align: center;
+    padding-top: 15px;
+}
+.n{
+color: rgb(218, 21, 21);
+}
+.p{
+margin-top: 5px;
+}

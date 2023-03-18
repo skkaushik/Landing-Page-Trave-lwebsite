@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+.header{
+    height: 8vh;
+    background-color: rgba(23, 22, 24, 0.945);
+}
+.navbar{
+    height: 8vh;
+    /* background-color: rgba(0, 0, 0, 0.747); */
+    width: 75vw;
+    margin: auto;
+    
+}
+.navbar .logo,.navbar .navitem a{
+    color: white ;
+}
+
+.logo{
+    float: left;
+    margin: 8px 0px 0px 50px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.navicon{
+    float: right;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+.navbar::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.navicon .navitem{
+    display: inline;
+    
+}
+
+.navitem a{
+    margin: 0 10px;
+    font-size: 17px;
+}
+
+.navitem a:hover{
+    color: rgb(8, 163, 252);
+}
+.navitem a:active{
+    color: rgb(156, 245, 12);
+}
+.main{
+    background-color: rgba(245, 242, 238, 0.884);
+    position: relative;
+    height: 95vh;
+}
+.content{
+    height: 73vh;
+    width: 65vw;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 80px;
+    left: 240px;
+}
+.con{
+    width: 45%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+.info{
+    float: left;
+    margin-left: 30px;
+    box-shadow: 0 0 0 3px rgba(224, 219, 219, 0.205);
+}
+.form{
+    float: left;
+    margin-left: 30px;
+    box-shadow: 0 0 0 3px rgba(224, 219, 219, 0.205);
+}
+
+
+.personal{
+    height: 48%;
+    /* border: black 2px solid; */
+}
+.locimg{
+    height: 52%;
+    /* border: black 2px solid; */
+    background-image: url("place.jpg");
+    background-size: cover;
+}
+.location,.call,.email{
+    /* border: 1px solid orange; */
+    height: 33.33%;
+    padding: 5px;
+}
+.mail{
+    margin-left: 3px;
+    color: brown;
+    font-weight: bold;
+}
+.loc{
+    margin-top: 5px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.63);
+}
+i{
+    color: rgba(0, 0, 255, 0.452);
+}
+
+.heading{
+    margin: 3px;
+    /* border: 2px solid yellow; */
+}
+.head{
+    border-bottom: 5px rgba(175, 9, 9, 0.795) solid;
+    padding: 3px;
+}
+.something{
+    margin: 10px 0 0 2px;
+    color: rgba(0, 0, 0, 0.486);
+}
+.fillform{
+    padding-left: 3px;
+    padding-right: 2px;
+}
+input{
+    margin-top: 5px;
+    width:100%;
+
+}
+.submit{
+   margin: 6px 170px;
+   background-color: brown;
+   color: azure;
+   height: 30px;
+   width: 80px;
+   font-size: large;
+}
